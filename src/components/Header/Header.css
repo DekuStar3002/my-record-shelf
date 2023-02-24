@@ -1,0 +1,22 @@
+.header {
+  background-color: #38497E;
+  width: 100%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-text {
+  margin: 0 20px;
+}
+
+.record {
+  font-weight: bolder;
+}
+
+.header-text > p {
+  margin: 0;
+  color: white;
+  font-size: x-large;
+}

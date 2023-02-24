@@ -1,9 +1,11 @@
 import './App.css';
+import { Header, MusicCardContainer } from './components';
 
 function App() {
   return (
     <div className="App">
-      App
+      <Header />
+      <MusicCardContainer />
     </div>
   );
 }
