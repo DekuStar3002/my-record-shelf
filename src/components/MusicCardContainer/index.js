@@ -1,12 +1,22 @@
-import React from 'react'
-import './MusicCardContainer.css'
+import React from 'react';
+import './MusicCardContainer.css';
+import { MusicCard } from '..';
+import genreIcon from '../../assets/icon-genre.svg';
 
 function MusicCardContainer() {
   return (
     <div className='musicCardContainer'>
-      <p>:((</p>
-      <p>seems a bit empty in here...</p>
-      <button>sync</button>
+      <div className='tasks'>
+        <h1>all songs</h1>
+        <img src={genreIcon} alt='grid'/>
+      </div>
+      <div className='musicCards'>
+        <MusicCard />
+        <MusicCard />
+        <MusicCard />
+        <MusicCard />
+        <MusicCard />
+      </div>
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import './App.css';
-import { Header, MusicCardContainer } from './components';
+import { HomePage, AllMusicPage } from './pages';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <AllMusicPage />
     </div>
   );
 }

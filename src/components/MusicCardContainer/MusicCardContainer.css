@@ -1,32 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Nanum+Gothic:wght@400;800&family=Poiret+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Nanum+Gothic:wght@400;800&display=swap');
-
 .musicCardContainer {
-  width: 100%;
-  height: 95%;
+  height: 90%;
+  background-color: #F5F5F5;
+  width: 70%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.musicCardContainer > p {
-  font-size: xx-large;
-  font-weight: lighter;
-  font-family: 'Poiret One', cursive;
-  margin: 0;
-}
-
-.musicCardContainer > button {
-  font-family: 'Manrope', sans-serif;
+.tasks {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
   font-size: x-large;
-  font-weight: bolder;
-  color: whitesmoke;
-  border: none;
-  height: 50px;
-  width: 120px;
-  border-radius: 40px;
-  background-color: #4C63AA;
-  cursor: pointer;
-  margin: 50px;
 }
 
+.musicCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
