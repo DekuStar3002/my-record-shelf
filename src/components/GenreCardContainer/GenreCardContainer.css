@@ -1,0 +1,52 @@
+.genreCardContainer {
+  height: 90%;
+  background-color: #F5F5F5;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: lowercase;
+}
+
+.tasks {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: x-large;
+}
+
+.equiMargin {
+  margin: 0 100px;
+}
+
+.genreHeading {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.genreHeading > p {
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+  background-color: #4C63AA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  left: 100px;
+}
+
+.musicCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

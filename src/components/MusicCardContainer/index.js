@@ -7,8 +7,8 @@ function MusicCardContainer() {
   return (
     <div className='musicCardContainer'>
       <div className='tasks'>
-        <h1>all songs</h1>
-        <img src={genreIcon} alt='grid'/>
+        <h1 className='equiMargin'>all songs</h1>
+        <img src={genreIcon} alt='grid' className='equiMargin'/>
       </div>
       <div className='musicCards'>
         <MusicCard />
