@@ -47,6 +47,10 @@
 }
 
 .musicCard-text-title {
+  width: 150px;  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   font-size: x-large;
   font-weight: 100;
   font-family: 'Nanum Gothic', sans-serif;

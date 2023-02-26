@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Nanum+Gothic:wght@400;800&family=Poiret+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Nanum+Gothic:wght@400;800&display=swap');
+
+.notfound {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.notfound p {
+  font-family: 'Poiret One', cursive;
+  font-size: xx-large;
+}
