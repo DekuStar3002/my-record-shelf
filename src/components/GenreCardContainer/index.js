@@ -34,7 +34,7 @@ function GenreCardContainer() {
         genres.map((genre) => {
           const genreImageSrc = require(`../../assets/genre-${genre.toLowerCase()}.png`);
           return (
-            <>
+            <div className='genre'>
               <div className='genreHeading'>
                 <img src={genreImageSrc} alt='pop' className='equiMargin'/>
                 <p className='equiMargin'>{genre}</p>
@@ -44,7 +44,7 @@ function GenreCardContainer() {
                   musicData.map((singleMusic, index) => singleMusic.genre.name === genre ? <MusicCard key={singleMusic.id} index={index} { ...singleMusic } handleLike={handleLike} /> : <></>)
                 }
               </div>
-            </>
+            </div>
           )
         })
       }

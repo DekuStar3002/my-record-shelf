@@ -38,7 +38,7 @@ function MusicCardContainer() {
       </div>
       <div className='musicCards'>
         {
-          musicData.length === 0 ? <div>Loading....</div> : musicData.map((singleMusic, index) => <MusicCard key={singleMusic.id} index={index} { ...singleMusic } handleLike={handleLike} />)
+          musicData.length === 0 ? <div className='loading'>Loading....</div> : musicData.map((singleMusic, index) => <MusicCard key={singleMusic.id} index={index} { ...singleMusic } handleLike={handleLike} />)
         }
       </div>
     </div>

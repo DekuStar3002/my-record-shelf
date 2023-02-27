@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Nanum+Gothic:wght@400;800&family=Poiret+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Nanum+Gothic:wght@400;800&display=swap');
 
 .error {
-  height: 90%;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;

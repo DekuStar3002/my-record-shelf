@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .musicCardContainer {
-  height: 90%;
   background-color: #F5F5F5;
   width: 70%;
   display: flex;
@@ -25,4 +26,61 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.loading {
+  height: 72vh;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+@media (max-width: 550px) {
+  .equiMargin {
+    margin: 0 10px !important;
+  }  
+
+  .tasks {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: small !important;
+    margin: 30px 0;
+  }
+
+  .musicCardContainer {
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .equiMargin {
+    margin: 0 50px !important;
+  }  
+
+  .tasks {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: x-large;
+    margin: 30px 0;
+  }
+
+  .musicCardContainer {
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }

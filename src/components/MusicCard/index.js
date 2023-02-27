@@ -27,10 +27,16 @@ function MusicCard({ id, index, artist, imageUrl, likes, name, handleLike }) {
 MusicCard.propTypes = {
   id: PropTypes.string.isRequired,
   index: PropTypes.number.isRequired, 
-  artist: PropTypes.string.isRequired, 
+  artist: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+  }), 
   imageUrl: PropTypes.string.isRequired, 
-  likes: PropTypes.object.isRequired, 
-  name: PropTypes.string, 
+  likes: PropTypes.shape({
+    like: PropTypes.bool.isRequired,
+    count: PropTypes.number.isRequired,
+  }), 
+  name: PropTypes.string.isRequired, 
   handleLike: PropTypes.func.isRequired,
 }
 

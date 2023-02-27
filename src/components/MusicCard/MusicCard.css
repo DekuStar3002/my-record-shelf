@@ -73,3 +73,9 @@
   font-weight: bold;
   color: white;
 }
+
+@media (max-width: 550px) {
+  .musicCard {
+    width: 300px;
+  }
+}
